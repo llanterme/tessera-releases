@@ -14,12 +14,7 @@ This repository hosts the downloads. Get the latest version from **[Releases](ht
 
    Not sure which you have? Apple menu → About This Mac → "Chip" (Apple M…) or "Processor" (Intel).
 2. Unzip it and drag **Tessera** into your **Applications** folder.
-3. Open it. The first time, macOS will warn that it can't verify the app, because this preview build isn't notarised by Apple yet:
-   - Click **Done** (not "Move to Bin").
-   - Open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to the message about Tessera.
-   - Confirm with **Open Anyway** again.
-
-   You only need to do this once. (Alternatively, in Terminal: `xattr -dr com.apple.quarantine /Applications/Tessera.app`.)
+3. Open it. Tessera is signed and notarised by Apple, so macOS just asks once to confirm you want to open an app downloaded from the internet.
 
 Requires macOS 13 (Ventura) or later.
 
